@@ -1,0 +1,101 @@
+body {
+  background: #f0f0f0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.demo-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 32px;
+}
+
+.counter-box {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 10px;
+  background: #fafafa;
+}
+
+.button-primary, .like-btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: #ff4081;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px 5px 10px 0;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.button-primary:hover, .like-btn:hover {
+  background: #e73370;
+}
+
+.message-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  background: #fff;
+}
+.message-box small {
+  color: #555;
+}
+
+.user-card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 250px;
+  text-align: center;
+  background: #fff;
+  margin: 10px auto;
+}
+.user-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.user-card h2 {
+  margin: 10px 0 5px;
+}
+.user-card p {
+  color: #888;
+  margin: 0;
+}
+
+.dark-mode-box {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px auto;
+  max-width: 400px;
+  transition: all 0.3s;
+}
+.light-mode-box {
+  background: #f9f9f9;
+  color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px auto;
+  max-width: 400px;
+  transition: all 0.3s;
+} 
