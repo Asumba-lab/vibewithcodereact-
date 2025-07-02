@@ -17,7 +17,9 @@ This project is a simple React component showcase. It includes several reusable 
 
 You can view and interact with all components in your browser using the provided demo page.
 
-### How to Run
+👉 **[Live Demo on Vercel](https://vibewithcodereact.vercel.app)**
+
+### How to Run Locally
 
 1. **Download or clone this repository.**
 2. **Open `index.html` in your web browser.**
