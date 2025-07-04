@@ -35,9 +35,9 @@ function App() {
         </div>
         <div className="section">
           <UserCard
-            name="Jane Doe"
-            email="jane@gmail.com"
-            imageUrl="https://randomuser.me/api/portraits/women/44.jpg"
+            name="Steve Asumba"
+            email="steveasumba@gmail.com"
+            imageUrl="/PHOTO.jpg"
           />
         </div>
       </div>
