@@ -8,6 +8,8 @@ function DarkModeComponent({ isDarkMode }) {
     borderRadius: '8px',
     textAlign: 'center',
     transition: 'all 0.3s',
+    margin: '20px auto',
+    maxWidth: '400px'
   };
 
   return (

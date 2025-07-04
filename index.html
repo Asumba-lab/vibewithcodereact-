@@ -12,72 +12,8 @@
 </head>
 <body style="background: #f0f0f0; font-family: sans-serif;">
   <div id="root"></div>
-  <script type="text/babel">
-    // Counter.jsx
-    function Counter({ initialCount }) {
-      const [count, setCount] = React.useState(initialCount);
-      return (
-        <div className="counter-box">
-          <h3>Count: {count}</h3>
-          <button className="button-primary" onClick={() => setCount(count + 1)}>Increment</button>
-          <button className="button-primary" onClick={() => setCount(count - 1)} style={{ marginLeft: '8px' }}>Decrement</button>
-        </div>
-      );
-    }
-    // LikeButton.jsx
-    function LikeButton({ onLike }) {
-      return (
-        <button className="like-btn" onClick={onLike}>
-          Like
-        </button>
-      );
-    }
-    // Message.jsx
-    function Message({ text, author }) {
-      return (
-        <div className="message-box">
-          <p style={{ margin: 0 }}>{text}</p>
-          <small>— {author}</small>
-        </div>
-      );
-    }
-    // UserCard.jsx
-    function UserCard({ name, email, imageUrl }) {
-      return (
-        <div className="user-card">
-          <img src={imageUrl} alt={name} />
-          <h2>{name}</h2>
-          <p>{email}</p>
-        </div>
-      );
-    }
-    // DarkModeComponent.jsx
-    function DarkModeComponent({ isDarkMode }) {
-      return (
-        <div className={isDarkMode ? 'dark-mode-box' : 'light-mode-box'}>
-          {isDarkMode ? <h2>Dark Mode is ON 🌙</h2> : <h2>Light Mode is ON ☀️</h2>}
-          <p>The current theme is <b>{isDarkMode ? 'Dark' : 'Light'}</b>.</p>
-        </div>
-      );
-    }
-    // Demo App rendering all components
-    function App() {
-      const [likes, setLikes] = React.useState(0);
-      return (
-        <div className="demo-container">
-          <h1>Vibe with Code Components Demo</h1>
-          <Counter initialCount={5} />
-          <div style={{ margin: '20px 0' }}>
-            <LikeButton onLike={() => setLikes(likes + 1)} />
-            <span style={{ marginLeft: '10px', fontWeight: 'bold' }}>{likes} Likes</span>
-          </div>
-          <Message text="This is a sample message!" author="Steve" />
-          <UserCard name="Jane Doe" email="jane@gmail.com" imageUrl="https://randomuser.me/api/portraits/women/44.jpg" />
-          <DarkModeComponent isDarkMode={false} />
-          <DarkModeComponent isDarkMode={true} />
-        </div>
-      );
-    }
+  <script type="text/babel" data-presets="react">
+    import App from './App.jsx';
     ReactDOM.render(<App />, document.getElementById('root'));
   </script>
 </body>
