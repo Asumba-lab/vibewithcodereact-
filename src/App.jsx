@@ -31,7 +31,7 @@ function App() {
           <span className="likes-count">{likes} Likes</span>
         </div>
         <div className="section">
-          <Message text="This is a sample message!" author="Steve" />
+          <Message text="The best way to predict the future is to invent it" author="Steve" />
         </div>
         <div className="section">
           <UserCard
