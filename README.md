@@ -27,7 +27,7 @@ npm install
 ```sh
 npm start
 ```
-This will start the development server at [http://localhost:3000](http://localhost:3000).
+This will start the development server at (https://vibewithcodereact-ty1i.vercel.app/).
 
 ### 4. Build for production
 ```sh
